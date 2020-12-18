@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:second": "ng serve my-second-app",
     "build": "ng build",
+    "build:lib": "ng build my-lib --prod",
+    "build:second": "ng build my-second-app --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

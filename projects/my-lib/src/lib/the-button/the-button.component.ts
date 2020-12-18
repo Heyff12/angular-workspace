@@ -1,0 +1,14 @@
+import { Component, OnInit, Input } from '@angular/core';
+
+@Component({
+  selector: 'lib-the-button',
+  templateUrl: './the-button.component.html',
+  styleUrls: ['./the-button.component.less'],
+})
+export class MyTheButtonComponent implements OnInit {
+  @Input() text: string;
+
+  constructor() {}
+
+  ngOnInit(): void {}
+}
